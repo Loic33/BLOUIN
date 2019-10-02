@@ -1,0 +1,70 @@
+﻿
+
+h1{							/*Premier Titre de la page*/
+	text-align: center;
+	text-decoration: underline;
+	
+	font-family: Verdana;
+}
+
+h2{
+	text-align: center;
+}
+
+img.logohome{			/*modifier les positions du logohome*/
+	position: relative; /*permet de modifier le positionement*/
+	bottom: 105px;
+	left: 20px
+}
+
+
+
+
+
+.blocdestitres{
+	background-color: #E1E1E1; /* couleur gris foncé*/
+	width: 100%;
+	height:120px;
+	padding-top: 20px;
+}
+
+
+.grospara{				/*bloc blanc sous le texte*/
+	
+	
+	margin-left: 10%;
+    margin-right: 10%;
+	padding-top: 30px;
+	
+	background-color: #FFFFFF; /* couleur Blanc*/
+	width: auto;
+	height:420px;
+	
+}
+
+.blocdefond {						
+	background-color: #F2F2F2; /*Couleur Gris clair*/ 
+	width: auto;
+	height: 590px;
+	}
+
+
+img.logohtml{ /* placement du logo html*/
+	
+	display: block;
+   position: relative;
+   left: 95.5%;
+   bottom:-35px;
+}
+img.logocss{ /* placement du logo css*/
+	
+	display: block;
+   position: relative;
+   left: 92%;
+   bottom: 30px;
+}
+
+.bouton{ /*position du bouton*/
+	position: relative;
+	left: 50%
+}

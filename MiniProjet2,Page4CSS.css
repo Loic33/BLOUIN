@@ -1,0 +1,155 @@
+﻿h1{							/*Premier Titre de la page*/
+	text-align: center;
+	text-decoration: underline;
+	
+	font-family: Verdana;
+
+}
+
+h2{							/*Second Titre de la page*/
+	text-align: center;
+	text-decoration: underline;
+}
+
+img.logohome{			/*modifier les positions du logohome*/
+	position: relative; /*permet de modifier le positionement*/
+	bottom: 115px;
+	left: 20px
+}
+
+.blocdestitres{
+	background-color: #E1E1E1; /*couleur gris foncé*/
+	width: 100%;
+	height:120px;
+	padding-top: 20px;
+}
+.grospara{				/*bloc blanc sous le texte*/
+	
+	margin-left: 10%;	/* marge gauche decale*/
+    margin-right: 10%;	/*marge droite decale*/
+	padding-top: 20px;	/*marge du haut decale*/
+	padding-bottom: 40px;	/*marge du bas decale*/
+	background-color: #FFFFFF; /*couleur blanche*/
+	width: auto;
+	height:700px
+	
+}
+
+.blocdefond {						
+	background-color: #F2F2F2; /*Couleur Gris clair*/ 
+	width: auto;
+	height: 820px;
+	}
+
+* {box-sizing:border-box}
+
+
+.slideshow-container {
+  max-width: 1000px;	/*taille max du cardre*/
+  position: relative;
+  margin: auto;
+}
+
+/* Permet de cacher l'image par défaut  */
+.mySlides {
+  display: none;
+  margin-left: 20%;
+   margin-right: 20%;
+}
+
+
+.prev, .next {		/* les deux boutons*/
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {			/*positioner le bouton de droite*/
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover { /*quand souris passe sur les boutons*/
+  background-color: #5D5D5D
+}
+
+/* Caption text */
+.text {
+  color: #FFFFFF;
+  font-size: 15px;
+  padding-right: 39%;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {	/*chiffres qui indique le numéro de la page*/
+  color: #00000;
+  font-size: 15x;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+ 
+}
+
+
+.dot {				/*Les points sous l'image*/'
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.fade {
+  -webkit-animation-name: fade; 
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+img.logohtml{ /* placement du logo html*/
+	
+	display: block;
+   position: relative;
+   left: 95.5%;
+   bottom:-23px;
+}
+img.logocss{ /* placement du logo css*/
+	
+	display: block;
+   position: relative;
+   left: 91.5%;
+   bottom: 40px;
+}

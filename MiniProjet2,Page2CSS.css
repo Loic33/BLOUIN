@@ -1,0 +1,100 @@
+h1{							/*Premier Titre de la page*/
+	text-align: center;
+	text-decoration: underline;
+	margin-top: 10px;		/* descend le texte horizontalement */
+	font-family: Verdana;	/*change le style de police*/
+
+}
+
+h2{							/*Second Titre de la page*/
+	text-align: center;
+}
+
+h3{
+	font-size: 20px;
+	margin-left: 10%;	/* augmente la marge de gauche*/
+    margin-right: 10%;	/* augmente la marge de droite*/
+	text-indent: 20px;	/* aline*/
+	text-decoration: underline;
+}
+
+h4{
+	font-style: italic; /* Permet de mettre le texte en italc*/
+	font-size: 20px;	/* taille de la police*/
+	background-color: #F4F4F4; /*Couleur gris */
+	padding-left: 20px;
+	
+}
+img.logohome{
+	position: relative; /* pour modifier la position du logohom*/
+	bottom: 155px;
+	left: 20px
+}
+
+
+.blocdestitres{
+	background-color: #E1E1E1; /* couleur gris foncé*/
+	width: 100%;
+	height:120px;
+	padding-top: 20px;
+	
+	
+}
+
+p{						/*Tous les paragraphes balisés indépendament*/
+	font-size: 19px;
+	text-indent: 30px;	/*Alinea de la première ligne du paragraphe*/
+	
+}
+
+.surligner{
+	
+	background-color: #E34646; /* couleur rouge clair */
+	
+}
+.positiontexte{
+    margin-left: 10%; /*marge gauche agrandit*/
+    margin-right: 10%; /*marge droite agrandit*/
+}
+.grospara{				/*bloc blanc sous le texte*/
+	
+	margin-left: 10%;
+    margin-right: 10%;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	background-color: #FFFFFF; /* couleur Blanc*/
+	width: auto;
+	height:auto
+	
+}
+
+img.image{				/*balise des 3 différentes image*/
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.blocdefond {						
+	background-color: #F2F2F2; /*Couleur Gris clair*/ 
+	width: auto;
+	height: 3570px;
+	}
+
+img.logohtml{ /* placement du logo html*/
+	
+	display: block;
+   position: relative;
+   left: 95.5%;
+   bottom:-43px;
+}
+img.logocss{ /* placement du logo css*/
+	
+	display: block;
+   position: relative;
+   left: 92%;
+   bottom: 20px;
+}
+
+

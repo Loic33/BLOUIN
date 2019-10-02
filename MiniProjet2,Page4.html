@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+
+<html lang="fr"> <!-- langue fraçaise attribué-->
+	<head>
+		<meta charset="utf-8"/>	<!-- Encodage des caractères -->
+		<title>	Plan du site </title>
+		<link rel="stylesheet"	href="MiniProjet2,Page4CSS.css" type="text/css"/>	 <!-- Page CSS lier a cette page html-->					
+		
+	</head>
+	
+	<body>
+	
+		<div class="blocdestitres"> <!-- balise "bloc des titres" pour ajoutez une couleur de fond -->
+			<h1>  Plan du site </h1> <br/>
+			<a href="MiniProjet.html"> <img class="logohome" src="images/maison.png" alt="Home"/> </a> <!-- image home + lien pour retour a la page de présentation-->
+		</div>
+			
+			<div class="blocdefond"> <!-- balise pour créer un bloc d'arrière plan gris -->
+				
+				<div class="grospara"> <!-- balise pour créer un bloc de second plan blanc -->
+	
+					<h2>Photo des plans du site: </h2> <br/><br/>
+
+				
+					<div class="slideshow-container"> <!-- balise qui contient les 5 photos des plans -->
+
+								<!-- Full-width images with number and caption text -->
+						 <div class="mySlides fade">
+							 <div class="numbertext">1 / 5</div>	<!-- image numéro 1 -->
+								<img src="images/imageslide.JPG" alt="photo"> <!-- insértion de l'image du plan de la page de présentation -->
+							 <div class="text">Plan de la page de présentation Texte </div> <!-- texte en bas de photo-->
+						</div>
+
+						<div class="mySlides fade">
+							 <div class="numbertext">2 / 5</div> <!-- image numéro 2 -->
+								 <img src="images/imageslide2.JPG" alt="photo2">  <!-- insértion de l'image du plan de la page architecture -->
+							 <div class="text">plan de la page architecture de l'ordinateur</div> 
+					    </div>
+
+						<div class="mySlides fade">
+							 <div class="numbertext">3 / 5</div> <!-- image numéro 3 -->
+								<img src="images/imageslide4.JPG" alt="photo3">  <!-- insértion de l'image du plan de la page CV -->
+							 <div class="text">plan de la page Mon CV</div>
+					    </div>
+						
+						<div class="mySlides fade">
+							 <div class="numbertext">4 / 5</div> <!-- image numéro 4 -->
+								 <img src="images/imageslide5.JPG" alt="photo3"> <!-- insértion de l'image du plan de la page des plans -->
+							 <div class="text">plan de la page plan de mon site</div>
+					    </div>
+
+						<div class="mySlides fade">
+							 <div class="numbertext">5 / 5</div> <!-- image numéro 5 -->
+								<img src="images/imageslide3.JPG" alt="photo3"> <!-- insértion de l'image du plan de la page espace libre -->
+							 <div class="text">plan de la page espace libre </div>
+					    </div>
+						 <!-- les  deux flêches droite et gauche -->
+						 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+						 <a class="next" onclick="plusSlides(1)">&#10095;</a>
+					</div> <br>
+							
+
+						<!-- Les points -->
+					 <div style="text-align:center">
+						<span class="dot" onclick="currentSlide(1)"></span> 
+						 <span class="dot" onclick="currentSlide(2)"></span> 
+						 <span class="dot" onclick="currentSlide(3)"></span> 
+						 <span class="dot" onclick="currentSlide(4)"></span> 
+						 <span class="dot" onclick="currentSlide(5)"></span> 
+					</div>
+				</div>	
+				<a href= "https://validator.w3.org/ "> <img class="logohtml" src="images/HTML5_Logo_64.png" alt="logohtml"/> </a> <!-- logo de html, lien vers le validator-->
+				<a href= "http://jigsaw.w3.org/css-validator/"> <img class="logocss" src="images/HTML5_Logo_4.png" alt="logocss"/> </a> <!-- logo de css, lien vers le validator-->
+			</div>
+		<script src='ImageSlider.js'></script> <!-- page JavaScript lier -->
+	</body>                    
+								
+</html>

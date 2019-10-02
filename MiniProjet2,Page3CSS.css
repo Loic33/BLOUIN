@@ -1,0 +1,91 @@
+﻿
+
+h1{text-align: center;
+	text-decoration: underline;
+	margin-top: 25px;	/*centre veticalement le titre dans le bloc*/
+	font-family: Verdana; /*change le style de police*/
+}
+h2{
+	text-align: center; /*texte centrer*/
+	font-size: 30px;
+	
+}
+h3{
+	margin-left: 18%;
+	font-size: 30px;
+	border-bottom: solid black 3px; /*créer une bordure au bas du texte d'un trait noire de 3px, il permet de créer un trait de séparation*/
+	width: 64%;
+}
+h4{
+	text-align: center;
+}
+.textetitre{ /*position des du premier paragraphe*/
+position: relative;
+top: -160px;
+}
+
+img.logohome{ /* pour modifier la position du logohom*/
+	position: relative;
+	bottom: 85px;
+	left: 15px
+}
+ul{
+	margin-left: 20%;
+	
+}
+
+p{
+	margin-left: 18%;
+	font-size: 17px;
+	
+	
+}
+
+.souligner{
+	text-decoration: underline;
+}
+
+.blocdefond {						/*Bloc de fond*/
+	background-color: #F2F2F2; /*Couleur Gris clair*/ 
+	width: auto;
+	height: 1580px;
+}
+
+.grospara{				/*bloc blanc sous le texte*/
+	
+	margin-left: 10%;
+    margin-right: 10%;
+	padding-top: 15px;
+	padding-bottom: 40px;
+	background-color: #FFFFFF;
+	width: auto;
+	height:1400px
+	
+}
+
+.blocdestitres{
+	background-color: #E1E1E1; /* couleur gris foncé*/
+	width: 100%;
+	height:120px;
+	padding-top: 20px;
+}
+img.logohtml{ /* placement du logo html*/
+	
+	display: block;
+   position: relative;
+   left: 95.5%;
+   top: 39px;
+}
+img.logocss{	/* placement du logo css*/
+	
+	display: block;
+   position: relative;
+   left: 92%;
+   bottom: 25px;
+}
+img.image{ /*placement de l'image*/
+	display: block;
+   position: relative;
+   left: 90%;
+   
+ }
